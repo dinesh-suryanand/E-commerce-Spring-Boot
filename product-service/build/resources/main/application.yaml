@@ -1,7 +1,11 @@
 server:
   port: 8080
 
+
+
 spring:
+  application:
+    name: PRODUCT-SERVICE
   datasource:
     url: jdbc:mysql://${DB_HOST:localhost}:3306/productsdb
     username: root
@@ -12,3 +16,12 @@ spring:
       ddl-auto: update
     properties:
       hibernate:
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
