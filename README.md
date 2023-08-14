@@ -1,8 +1,11 @@
 # E-commerce-Spring-Boot
 An E-commerce application using springboot 3.+
 
+## version 0.4
+Added config-server
+
 ## version 0.3
-Added order-service
+Added order-service 
 
 ## version 0.2
 Added service-registery
