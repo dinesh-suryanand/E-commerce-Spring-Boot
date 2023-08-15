@@ -1,4 +1,4 @@
-package com.whatsupd.OrderService.model;
+package com.whatsupd.orderservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

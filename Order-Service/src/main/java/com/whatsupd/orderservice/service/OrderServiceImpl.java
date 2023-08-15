@@ -1,9 +1,9 @@
-package com.whatsupd.OrderService.service;
+package com.whatsupd.orderservice.service;
 
-import com.whatsupd.OrderService.entity.Order;
-import com.whatsupd.OrderService.external.client.ProductService;
-import com.whatsupd.OrderService.model.OrderRequest;
-import com.whatsupd.OrderService.repository.OrderRepository;
+import com.whatsupd.orderservice.entity.Order;
+import com.whatsupd.orderservice.external.client.ProductService;
+import com.whatsupd.orderservice.model.OrderRequest;
+import com.whatsupd.orderservice.repository.OrderRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
