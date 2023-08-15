@@ -1,4 +1,4 @@
-package com.whatsupd.OrderService.entity;
+package com.whatsupd.orderservice.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,7 +1,7 @@
-package com.whatsupd.OrderService.controller;
+package com.whatsupd.orderservice.controller;
 
-import com.whatsupd.OrderService.model.OrderRequest;
-import com.whatsupd.OrderService.service.OrderService;
+import com.whatsupd.orderservice.model.OrderRequest;
+import com.whatsupd.orderservice.service.OrderService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

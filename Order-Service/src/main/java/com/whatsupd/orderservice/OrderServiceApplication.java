@@ -1,4 +1,4 @@
-package com.whatsupd.OrderService;
+package com.whatsupd.orderservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

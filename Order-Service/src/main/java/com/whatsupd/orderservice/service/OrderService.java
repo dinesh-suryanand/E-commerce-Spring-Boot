@@ -1,6 +1,6 @@
-package com.whatsupd.OrderService.service;
+package com.whatsupd.orderservice.service;
 
-import com.whatsupd.OrderService.model.OrderRequest;
+import com.whatsupd.orderservice.model.OrderRequest;
 
 public interface OrderService {
   long placeOrder(OrderRequest orderRequest);
