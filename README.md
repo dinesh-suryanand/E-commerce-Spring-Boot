@@ -1,7 +1,11 @@
 # E-commerce-Spring-Boot
 An E-commerce application using springboot 3.+
 
-## implemented feigen client 0.5
+## version 0.6
+bug fixes and implemented custom excepion for order serveice.
+
+## version 0.5
+implemented Feign client
 reducing the product is not working properly , check it once.
 
 ## version 0.4
