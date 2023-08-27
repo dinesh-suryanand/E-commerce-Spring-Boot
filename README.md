@@ -1,6 +1,12 @@
 # E-commerce-Spring-Boot
 An E-commerce application using springboot 3.+
 
+## version 0.8
+Added payment-service need to implement business logic.
+
+## version 0.7
+Added Zipkin for distibuted tracing.
+
 ## version 0.6
 bug fixes and implemented custom excepion for order serveice.
 

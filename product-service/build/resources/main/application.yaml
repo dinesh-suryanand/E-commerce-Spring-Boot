@@ -17,5 +17,12 @@ spring:
       ddl-auto: update
     properties:
       hibernate:
-
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+  tracing:
+    sampling:
+      probability: 1.0
