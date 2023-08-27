@@ -1,5 +1,4 @@
-# E-commerce-Spring-Boot
-An E-commerce application using springboot 3.+
+https://socialify.git.ci/dinesh-suryanand/E-commerce-Spring-Boot/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Charlie%20Brown&theme=Dark
 
 ## version 0.8
 Added payment-service need to implement business logic.
