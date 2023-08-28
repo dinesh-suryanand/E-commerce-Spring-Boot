@@ -1,14 +1,14 @@
 server:
-  port: 8081
+  port: 8083
 
 spring:
   config:
     import:
       - configserver:http://localhost:8888
   application:
-    name: ORDER-SERVICE
+    name: PAYMENTS-SERVICE
   datasource:
-    url: jdbc:mysql://${DB_HOST:localhost}:3306/ordersdb
+    url: jdbc:mysql://${DB_HOST:localhost}:3306/paymentsdb
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -17,7 +17,6 @@ spring:
       ddl-auto: update
     properties:
       hibernate:
-
 management:
   endpoints:
     web:
