@@ -1,7 +1,16 @@
-# E-commerce-Spring-Boot
-An E-commerce application using springboot 3.+
+![E-commerce-Spring-Boot](https://socialify.git.ci/dinesh-suryanand/E-commerce-Spring-Boot/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Charlie%20Brown&theme=Dark)
 
-## implemented feigen client 0.5
+## version 0.8
+Added payment-service need to implement business logic.
+
+## version 0.7
+Added Zipkin for distibuted tracing.
+
+## version 0.6
+bug fixes and implemented custom excepion for order serveice.
+
+## version 0.5
+implemented Feign client
 reducing the product is not working properly , check it once.
 
 ## version 0.4
