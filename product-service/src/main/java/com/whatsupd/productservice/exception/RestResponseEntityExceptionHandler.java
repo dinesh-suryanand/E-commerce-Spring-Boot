@@ -1,3 +1,4 @@
+
 package com.whatsupd.productservice.exception;
 
 import com.whatsupd.productservice.mode.ErrorResponse;
